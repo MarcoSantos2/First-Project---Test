@@ -9,6 +9,9 @@ my_var = days_to_unitx(50, 'sup?')
 
 print(my_var)
 """
+
+print("test for Jiarong")
+
 # Global variables
 kg_to_pounds = 1 * 2.205
 kg_to_pounds_number = float(kg_to_pounds)
@@ -82,8 +85,6 @@ function_result_im_looking_for2 = units_of_mass_converter2(user_input2_number)
 
 print(function_result_im_looking_for2)
 
-
-'''
 # HERE I AM TRYING TO CREATE AN IF ELSE STATEMENT FUNCTION SO THE USER CAN ONLY INPUT DIGITS AND NOT STRINGS
 # This is overriding my main function.
 def input_only_dig2():
@@ -97,3 +98,5 @@ def input_only_dig2():
 input_only_dig2()
 '''
 print("-----------------------------------------------------------------------------------")
+
+print("test for Jiarong")
