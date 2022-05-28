@@ -15,13 +15,13 @@ def validate_and_execute():
             calculated_value = units_of_mass_converter(user_input_num)
             print(calculated_value)
         elif user_input_num == 0:
-            print("If you don't know the answer to this one, I don't know what to tell ya")
+            print("0 Kgs will be equal to 0 pounds")
         elif user_input_num < 0:
             print("Negative mass is only hypothetical, don't get ahead of yourself")
     except ValueError:
-        print("Don't be a smart ass, input a number!")
+        print("Please input a valid number.")
 
-user_input = input("Enter number of Kg(s) and I'll convert it to pounds\n")   #I'm not sure I understand why this is here.
+user_input = input("Enter number of Kg(s) and I'll convert it to pounds.\n")   #I'm not sure I understand why this is here.
 validate_and_execute()
 
 print("-----------------------------------------------------------------------------------")
@@ -43,15 +43,15 @@ def validate_and_execute2():
             calculated_value2 = units_of_mass_converter2(user_input_num2)
             print(calculated_value2)
         elif user_input_num2 == 0:
-            print("If you don't know the answer to this one, I don't know what to tell ya")
+            print("0 Kgs will be equal to 0 pounds")
         elif user_input_num2 < 0:
             print("Negative mass is only hypothetical, don't get ahead of yourself")
     except ValueError:
-        print("Don't be a smart ass, input a number!")
+        print("Please input a valid number.")
 
 
 # Global variable
-user_input2 = input("""Enter number of Pound(s) and I will convert it to Kg(s)\n""")
+user_input2 = input("""Enter number of Pound(s) and I will convert it to Kg(s).\n""")
 validate_and_execute2()
 
 
